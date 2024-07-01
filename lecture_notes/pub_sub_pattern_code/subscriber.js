@@ -15,4 +15,5 @@ function streamMessages() {
     })
 }
 
+console.log(TOPIC_ID);
 streamMessages();
