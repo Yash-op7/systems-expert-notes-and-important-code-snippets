@@ -10,7 +10,7 @@ app.listen(3001, () => {
     console.log('Listening on port 3001!');
 });
 
-app.post('/:topicId', (req, res) =? {
+app.post('/:topicId', (req, res) => {
     const {topicId} = req.params;
     const message = req.body;
 
